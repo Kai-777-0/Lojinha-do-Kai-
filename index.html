@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Loja Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Minha Loja Online</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#carrinho">Carrinho (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+  <main>
+    <section id="produtos">
+      <h2>Produtos</h2>
+      <div class="produtos-lista" id="produtos-lista">
+        <!-- Produtos inseridos via JS -->
+      </div>
+    </section>
+    <section id="carrinho">
+      <h2>Carrinho de Compras</h2>
+      <div id="carrinho-itens"></div>
+      <div id="carrinho-total"></div>
+      <button id="finalizar-compra" style="display:none;">Finalizar Compra</button>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Minha Loja Online</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
